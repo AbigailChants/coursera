@@ -1,0 +1,200 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #0D3C90;
+  font-family: 'Oxygen', sans-serif;
+}
+
+h2{
+    text-align: center;
+     font-size: 50px;
+}
+h3{
+    text-align: center;
+    font-family: cursive;
+    font-size: 30px;
+}
+
+
+#chicken{
+    background: #0DA585 ;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    text-align: justify;
+    width: 95%;
+  }
+    
+#beef{
+    background: #0DA52B ;  
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    text-align: justify;
+    width: 95%;   
+}
+    
+#sushi{
+    background: #A50D85 ;  
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    text-align: justify;
+    width: 95%;   
+}
+
+.initial-loading {
+  margin-top: 60px;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #35CDE5;
+  border-radius: 0;
+  border: 0;
+    
+}
+
+.navbar-brand{
+	padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #0D3C90;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p { /* Kosher cert */
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+.navbar-brand p span { /* Star-K */
+  vertical-align: middle;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+
+#nav-list a {
+  color: #951C49;
+  text-align: center;    
+}
+
+#nav-list a:hover {
+  background: #B4D1DC;
+  color: blue;
+}
+
+h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: white;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  text-align: center;
+}
+ 
+/***/
+
+.topnav {
+  overflow: hidden;
+  background-color: transparent;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-left: 100px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+    
+}
+
+.topnav a.active {
+  background-color: transparent;
+  color: transparent;
+  margin-left: 200px;
+    
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {
+      display: none;
+      margin-left: 250px;
+      background: #A0A5A7;
+      color: darkblue;
+    }
+    
+  .topnav a.icon {
+    float: right;
+    display: block;
+    background: url(menu.png) no-repeat;
+    margin-left: 300px;
+      margin-top: auto;
+   }
+     
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {
+      position: relative;
+    }
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 100;
+    top: 0;
+      background: transparent;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: -webkit-center;
+ 
+  }
+    
+  /***/
+    
+div{
+ 	height: auto;
+	float: left;
+  	margin: 25px;
+}
+
+p{
+	width: 350px;
+	height: auto;
+  	text-align: justify;
+ 	color: white;
+	padding: 30px;
+	margin-top: 10px;
+    margin-bottom: 20px;
+}         
+    
