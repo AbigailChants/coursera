@@ -1,0 +1,370 @@
+body {
+  tamaño de fuente : 16 px ;
+  color : # fff ;
+  color de fondo : # 61122f ;
+  font-family : 'Oxygen' , sans-serif;
+}
+
+/ ** ENCABEZADO ** /
+# header-nav {
+  color de fondo : # f6b319 ;
+  radio de borde : 0 ;
+  borde : 0 ;
+}
+
+# logo-img {
+  fondo : url ( '../images/restaurant-logo_large.png' ) sin repetición;
+  ancho : 150 px ;
+  altura : 150 px ;
+  margen : 10 px  15 px  10 px  0 ;
+}
+
+. navbar-brand {
+  relleno superior : 25 px ;
+}
+. navbar-brand  h1 { / * Nombre del restaurante * /
+  font-family : 'Lora' , serif;
+  color : # 557c3e ;
+  tamaño de fuente : 1.5 em ;
+  transformación de texto : mayúscula;
+  peso de fuente : negrita;
+  sombra de texto : 1 px  1 px  1 px  # 222 ;
+  margen superior : 0 ;
+  margen inferior : 0 ;
+  altura de línea : .75 ;
+}
+. navbar-marca  una : libración , . navbar-brand  a : focus {
+  decoración de texto : ninguno;
+}
+. navbar-brand  p { / * Certificado Kosher * /
+  color : # 000 ;
+  transformación de texto : mayúscula;
+  tamaño de fuente : .7 em ;
+  margen superior : 15 px ;
+}
+. navbar-brand  p  span { / * Star-K * /
+  alineación vertical : medio;
+}
+
+# nav-list {
+  margen superior : 10 px ;
+}
+# nav-list  a {
+  color : # 951C49 ;
+  alinear texto : centro;
+}
+# nav-list  a : hover {
+  fondo : # E7E7E7 ;
+}
+# nav-list  a  span {
+  tamaño de fuente : 1.8 em ;
+}
+
+# phone {
+  margen superior : 5 px ;
+}
+# phone  a { / * Número de teléfono * /
+  alineación de texto : derecha;
+  relleno inferior : 0 ;
+}
+# phone  div { / * Entregamos * /
+  color : # 557c3e ;
+  alineación de texto : derecha;
+  relleno derecho : 15 px ;
+}
+
+. navbar-cabecera  botón . navbar-basculante , . encabezado de barra de navegación . barra de iconos {
+  borde : 1 px sólido # 61122f ;
+}
+. navbar-cabecera  botón . navbar-toggle {
+  claro : ambos;
+  margen superior : -30px;
+}
+/ * FIN HEADER * /
+
+/ * FOOTER * /
+. pie de página del panel {
+  margen superior : 30 px ;
+  relleno superior : 35 px ;
+  relleno inferior : 30 px ;
+  color de fondo : # 222 ;
+  borde superior : 0 ;
+}
+. panel-pie de página  div . fila {
+  margen inferior : 35 px ;
+}
+# horas ,  # dirección {
+  altura de línea : 2 ;
+}
+# horas  >  intervalo ,  # dirección  >  intervalo {
+  tamaño de fuente : 1.3 em ;
+}
+# dirección  p {
+  color : # 557c3e ;
+  tamaño de fuente : .8 em ;
+  altura de línea : 1.8 ;
+}
+# testimonios {
+  estilo de fuente : cursiva;
+}
+# testimonios  p : nth-child ( 2 ) {
+  margen superior : 25 px ;
+}
+/ * PIE FINAL * /
+
+
+
+/ * PÁGINA PRINCIPAL * /
+. contenedor . jumbotron {
+  sombra de cuadro : 0  0  50 px  # 3F0C1F ;
+  borde : 2 px sólido # 3F0C1F ;
+}
+
+# menu-tile ,  # specials-tile ,  # map-tile {
+  altura : 250 px ;
+  ancho : 100 % ;
+  margen inferior : 15 px ;
+  posición : relativa;
+  borde : 2 px sólido # 3F0C1F ;
+  desbordamiento : oculto;
+}
+# menu-tile : hover ,  # specials-tile : hover ,  # map-tile : hover {
+  cuadro-sombra : 0  1 px  5 px  1 px  # cccccc ;
+}
+# menu-tile {
+  fondo : url ( '../images/menu-tile.jpg' ) sin repetición;
+  posición de fondo : centro;
+}
+# specials-tile {
+  fondo : url ( '../images/specials-tile.jpg' ) sin repetición;
+  posición de fondo : centro;
+}
+# menu-tile  span ,  # specials-tile  span ,  # map-tile  span {
+  posición : absoluta;
+  abajo : 0 ;
+  derecha : 0 ;
+  ancho : 100 % ;
+  alinear texto : centro;
+  tamaño de fuente : 1.6 em ;
+  transformación de texto : mayúscula;
+  color de fondo : # 000 ;
+  color : # fff ;
+  opacidad : .8 ;
+}
+/ * FINALIZAR PÁGINA DE INICIO * /
+
+/ * PÁGINA DE CATEGORÍAS DE MENÚ * /
+. category-tile {
+  posición : relativa;
+  borde : 2 px sólido # 3F0C1F ;
+  desbordamiento : oculto;
+  ancho : 200 px ;
+  altura : 200 px ;
+  margen : 0 automático 15 px ;
+}
+. span de mosaico de categoría  {
+  posición : absoluta;
+  abajo : 0 ;
+  derecha : 0 ;
+  ancho : 100 % ;
+  alinear texto : centro;
+  tamaño de fuente : 1.2 em ;
+  transformación de texto : mayúscula;
+  color de fondo : # 000 ;
+  color : # fff ;
+  opacidad : .8 ;
+}
+. category-tile : hover {
+  cuadro-sombra : 0  1 px  5 px  1 px  # cccccc ;
+}
+
+# menu-categories-title  +  div {
+  margen inferior : 50 px ;
+}
+/ * FINALIZAR PÁGINA DE CATEGORÍAS DEL MENÚ * /
+
+/ * PÁGINA DE CATEGORÍA INDIVIDUAL * /
+. menu-item-tile {
+  margen inferior : 25 px ;
+}
+. menu-item-tile  hr {
+  ancho : 80 % ;
+}
+. menu-item-tile . menu-item-price {
+  tamaño de fuente : 1.1 em ;
+  alineación de texto : derecha;
+  margen superior : -15 px;
+  margen derecho : -15px;
+}
+. menu-item-tile . intervalo de precio de elemento de menú  {
+  tamaño de fuente : .6 em ;
+}
+. menu-item-photo {
+  posición : relativa;
+  borde : 2 px sólido # 3F0C1F ;
+  desbordamiento : oculto;
+  relleno : 0 ;
+  margen derecho : -15px;
+  margen izquierdo : auto;
+  margen inferior : 20 px ;
+  ancho máximo : 250 px ;
+}
+. menu-item-photo  div {
+  posición : absoluta;
+  abajo : 0 ;
+  derecha : 0 ;
+  ancho : 80 px ;
+  color de fondo : # 557c3e ;
+  alinear texto : centro;
+}
+. menu-item-description {
+  relleno derecho : 30 px ;
+}
+h3 . menu-item-title {
+  margen : 0  0  10 px ;
+}
+. detalles del elemento de menú {
+  tamaño de fuente : .9 em ;
+  estilo de fuente : cursiva;
+}
+/ * FINALIZAR UNA PÁGINA DE CATEGORÍA SIMPLE * /
+
+
+/ ********** Solo dispositivos grandes ********** /
+@media ( ancho mínimo : 1200 px ) {
+  . contenedor . jumbotron {
+    fondo : url ( '../images/jumbotron_1200.jpg' ) sin repetición;
+    altura : 675 px ;
+  }
+}
+
+/ ********** Solo dispositivos medianos ********** /
+@media ( ancho mínimo : 992 px ) y ( ancho máximo : 1199 px ) {
+  / * Encabezado * /
+  # logo-img {
+    fondo : url ( '../images/restaurant-logo_medium.png' ) sin repetición;
+    ancho : 100 px ;
+    altura : 100 px ;
+    margen : 5 px  5 px  5 px  0 ;
+  }
+  / * Fin del encabezado * /
+
+  / * Página de inicio * /
+  . contenedor . jumbotron {
+    fondo : url ( '../images/jumbotron_992.jpg' ) sin repetición;
+    altura : 558 px ;
+  }
+  / * Fin de la página de inicio * /
+}
+
+/ ********** Solo dispositivos pequeños ********** /
+@media ( ancho mínimo : 768 px ) y ( ancho máximo : 991 px ) {
+  / * Página de inicio * /
+  . contenedor . jumbotron {
+    fondo : url ( '../images/jumbotron_768.jpg' ) sin repetición;
+    altura : 432 px ;
+  }
+  / * Fin de la página de inicio * /
+}
+
+/ ********** Solo dispositivos extra pequeños ********** /
+@media ( ancho máximo : 767 px ) {
+  / * Encabezado * /
+  . navbar-brand {
+    relleno superior : 10 px ;
+    altura : 80 px ;
+  }
+  . navbar-brand  h1 { / * Nombre del restaurante * /
+    relleno superior : 10 px ;
+    tamaño de fuente : 5 vw ; / * 1vw = 1% del ancho de la ventana gráfica * /
+  }
+  . navbar-brand  p { / * Certificado Kosher * /
+    tamaño de fuente : .6 em ;
+    margen superior : 12 px ;
+  }
+  . navbar-brand  p  img { / * Star-K * /
+    altura : 20 px ;
+  }
+
+  # collapsable-nav  a { / * Texto del menú de navegación contraído * /
+    tamaño de fuente : 1.2 em ;
+  }
+  # collapsable-nav  a  span { / * Glifo de menú de navegación contraído * /
+    tamaño de fuente : 1 em ;
+    margen derecho : 5 px ;
+  }
+
+  # call-btn  >  a {
+    tamaño de fuente : 1.5 em ;
+    pantalla : bloque;
+    margen : 0  20 px ;
+    relleno : 10 px ;
+    borde : 2 px sólido # fff ;
+    color de fondo : # f6b319 ;
+    color : # 951c49 ;
+  }
+  # xs-delivery {
+    margen superior : 5 px ;
+    tamaño de fuente : .7 em ;
+    espacio entre letras : .1 em ;
+    transformación de texto : mayúscula;
+  }
+  / * Fin del encabezado * /
+
+  / * Pie de página * /
+  . sección de panel de pie de página  {
+    margen inferior : 30 px ;
+    alinear texto : centro;
+  }
+  . sección panel-pie de página  : nth-child ( 3 ) {
+    margen inferior : 0 ; / * el margen ya existe en toda la fila * /
+  }
+  . sección panel-pie de página  hr {
+    ancho : 50 % ;
+  }
+  / * Fin de pie de página * /
+
+  / * Página de inicio * /
+  . contenedor . jumbotron {
+    margen superior : 30 px ;
+    relleno : 0 ;
+  }
+  # menu-tile ,  # specials-tile {
+    ancho : 360 px ;
+    margen : 0 automático 15 px ;
+  }
+  . menu-item-photo {
+    margen derecho : auto;
+  }
+  . menu-item-tile . menu-item-price {
+    alinear texto : centro;
+  }
+  . menu-item-description {
+    alinear texto : centro;
+  }
+}
+
+/ ********** Solo dispositivos súper extra pequeños :-) (por ejemplo, iPhone 4) ********** /
+@media ( ancho máximo : 479 px ) {
+  / * Encabezado * /
+  . navbar-brand  h1 { / * Nombre del restaurante * /
+    relleno superior : 5 px ;
+    tamaño de fuente : 6 vw ;
+  }
+  / * Fin del encabezado * /
+
+  / * Página de inicio * /
+  # menu-tile ,  # specials-tile {
+    ancho : 280 px ;
+    margen : 0 automático 15 px ;
+  }
+
+  . col-xxs-12 {
+    posición : relativa;
+    altura mínima : 1 px ;
+    relleno derecho : 15 px ;
+    relleno-izquierda : 15 px ;
+    flotador : izquierda;
+    ancho : 100 % ;
+  }
+}
