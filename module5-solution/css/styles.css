@@ -170,6 +170,7 @@ a[ui-sref="admin.auth"] {
     overflow: hidden;
     width: 200px;
     margin: 0 auto 25px; 
+}
 
 .category-tile{
     box-shadow: 0 1px 5px 1px #cccccc;
