@@ -345,6 +345,16 @@ h3..menu-item-title {
     width: 50%;
   }
   /* End Footer */
+  
+     .menu-item-photo{
+        padding-right: auto;
+    }
+    
+    .menu-item-tile .menu-item-price {
+        text-align: center;
+    }
+    
+
 }
 
 
