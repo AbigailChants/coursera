@@ -180,7 +180,7 @@ a[ui-sref="admin.auth"] {
 /********** Small devices only **********/
 @media (max-width: 768px) and (max-width: 991px) {  
      /* Home Page */
-      .jumbotron{
+       .jumbotron{
         background: url('../images/jumbotron_768.jpg') no-repeat;
         height: 432px;        
     }
