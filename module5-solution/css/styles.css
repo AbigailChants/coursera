@@ -190,6 +190,10 @@ a[ui-sref="admin.auth"] {
         background: url('../images/jumbotron_768.jpg') no-repeat;
         height: 432px;        
     }
+   #menu-tile, #specials-tile{
+        width: 280px;
+        margin: 0 auto 15px;
+    }
   }
   /* End Home Page  */
 
@@ -268,9 +272,6 @@ a[ui-sref="admin.auth"] {
   }
   /* End Header */
   
-   #menu-tile, #specials-tile{
-        width: 280px;
-        margin: 0 auto 15px;
-    }
+  
 }
 
