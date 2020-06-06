@@ -6,8 +6,14 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
    if (screenWidth < 768) {
      $("#collapsable-nav").collapse('hide');
    }
+     else{
+          var html = "<div class='text-center'>";
+     html += "<img src='images/jumbotron_1200.'></div>";
+      insertHtml(selector, html);
+     }
  });
 });
+
 
 (function (global) {
 
