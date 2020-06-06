@@ -142,7 +142,7 @@ a[ui-sref="admin.auth"] {
     background-position: center;
 }
 
-#menu-tile span, #specials-tile span, #map-tile span{
+#menu-tile span , #specials-tile span , #map-tile span {
     position: absolute;
     bottom: 0;
     right: 0;
