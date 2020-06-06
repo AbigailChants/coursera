@@ -119,7 +119,7 @@ a[ui-sref="admin.auth"] {
 }
 /* END FOOTER */
 
-.container .jumbotron {
+.container {
         box-shadow: 0 0 50px #3F0C1F;
         border: 2px solid #3F0C1F;
 }
@@ -137,18 +137,7 @@ a[ui-sref="admin.auth"] {
     box-shadow: 0 1px 5px 1px #cccccc;
 }
 
-/********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
-  /* Header */
-  #logo-img {
-    background: url('../images/restaurant-logo_medium.png') no-repeat;
-    width: 100px;
-    height: 100px;
-    margin: 5px 5px 5px 0;
-  }
-  /* End Header */
-}
-
+ 
 /********** Large devices only ***********/
 @media (min-width: 1200px){
     .jumbotron{
