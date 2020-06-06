@@ -181,6 +181,10 @@ a[ui-sref="admin.auth"] {
     box-shadow: 0 1px 5px 1px #cccccc;
 }
 
+#menu-categories-title + div{
+    margin-bottom: 50px;
+}
+
 /********** Large devices only ***********/
 @media (min-width: 1200px){
     .jumbotron{
