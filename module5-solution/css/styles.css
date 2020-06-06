@@ -180,10 +180,6 @@ a[ui-sref="admin.auth"] {
     margin-bottom: 50px;
 }
 
-#menu-categories-title + div {
-    margin-bottom: 50px;
-}
-
 .menu-item-tile{
     margin-bottom: 25px;
 }
