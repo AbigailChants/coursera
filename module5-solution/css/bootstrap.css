@@ -6640,6 +6640,7 @@ button.close {
     display: table-cell !important;
   }
 }
+/*
 @media (min-width: 992px) and (max-width: 1199px) {
   .visible-md-block {
     display: block !important;
@@ -6655,6 +6656,7 @@ button.close {
     display: inline-block !important;
   }
 }
+*/
 @media (min-width: 1200px) {
   .visible-lg {
     display: block !important;
