@@ -237,6 +237,16 @@ a[ui-sref="admin.auth"] {
   }
   /* End Header */
 
+      #container .jumbotron {
+        margin-top: 30px;
+        padding: 0;
+    }
+
+    #menu-tile, #specials-tile{
+        width: 360px;
+        margin: 0 auto 15px;
+    }
+  
   /* Footer */
   .panel-footer section {
     margin-bottom: 30px;
