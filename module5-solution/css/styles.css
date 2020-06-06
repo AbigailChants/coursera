@@ -168,20 +168,22 @@ a[ui-sref="admin.auth"] {
   }
   /* End Header */
     
-      /* Home Page */
-  .jumbotron {
-    background: url('../images/jumbotron_992.jpg') no-repeat;
-    width: 558px; 
+   /* Home Page */
+       .jumbotron{
+        background: url('../images/jumbotron_992.jpg') no-repeat;
+        height: 558px;        
+    }
   }
   /* End Home Page  */
-}
+
 
 /********** Small devices only **********/
-@media (max-width: 768px) and (max-width: 991px) {
-   /* Home Page */
-  .jumbotron {
-    background: url('../images/jumbotron_768.jpg') no-repeat;
-    width: 432px; 
+@media (max-width: 768px) and (max-width: 991px) {  
+     /* Home Page */
+      .jumbotron{
+        background: url('../images/jumbotron_768.jpg') no-repeat;
+        height: 432px;        
+    }
   }
   /* End Home Page  */
 
