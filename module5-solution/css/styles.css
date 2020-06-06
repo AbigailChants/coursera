@@ -242,10 +242,7 @@ a[ui-sref="admin.auth"] {
         padding: 0;
     }
 
-    #menu-tile, #specials-tile{
-        width: 360px;
-        margin: 0 auto 15px;
-    }
+    
   
   /* Footer */
   .panel-footer section {
