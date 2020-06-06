@@ -164,7 +164,7 @@ a[ui-sref="admin.auth"] {
 }
 
 .category-tile{
-    position: absolute;
+    position: relative;
     bottom: 0;
     right: 0;
     width: 100%;
