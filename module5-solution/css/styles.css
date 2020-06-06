@@ -154,8 +154,9 @@ a[ui-sref="admin.auth"] {
     color: #fff;
     opacity: .8;        
 }
+
 .category-tile {
-    position: relative;
+    position: absolute;
     border: 2px solid #3F0C1F;
     overflow: hidden;
     width: 200px;
@@ -164,7 +165,7 @@ a[ui-sref="admin.auth"] {
 }
 
 .category-tile{
-    position: relative;
+    position: absolute;
     bottom: 0;
     right: 0;
     width: 100%;
